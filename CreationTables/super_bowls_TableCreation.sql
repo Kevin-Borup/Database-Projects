@@ -1,5 +1,5 @@
 /* Source:
-  From Khan Academy: https://gist.github.com/pamelafox/3d8ab901def3577a8bfc881f6255d3f6#file-superbowls-sql-L9
+  From Khan Academy: https://gist.github.com/pamelafox/3d8ab901def3577a8bfc881f6255d3f6
 */
 
 CREATE TABLE superbowls(
@@ -14,6 +14,7 @@ CREATE TABLE superbowls(
   City       TEXT,
   State      TEXT
 );
+
 INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 2 2020','LIV (54)','Kansas City Chiefs',31,'San Francisco 49ers',20,'Patrick Mahomes','Hard Rock Stadium','Miami Gardens','Florida');
 INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 3 2019','LIII (53)','New England Patriots',13,'Los Angeles Rams',3,'Julian Edelman','Mercedes-Benz Stadium','Atlanta','Georgia');
 INSERT INTO superbowls(Date,SB,Winner,Winner_Pts,Loser,Loser_Pts,MVP,Stadium,City,State) VALUES ('Feb 4 2018','LII (52)','Philadelphia Eagles',41,'New England Patriots',33,'Nick Foles','U.S. Bank Stadium','Minneapolis','Minnesota');

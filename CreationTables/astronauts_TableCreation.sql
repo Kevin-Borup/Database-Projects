@@ -1,7 +1,8 @@
 /* Source:
   From Khan Academy: https://gist.github.com/pamelafox/b98e03caca7d1ec14394a90ec1512cff
-  https://www.kaggle.com/nasa/astronaut-yearbook
+  Their Ressource: https://www.kaggle.com/nasa/astronaut-yearbook
 */
+
 CREATE TABLE astronauts(
    Name                TEXT PRIMARY KEY,
    Year                INTEGER,
@@ -23,6 +24,7 @@ CREATE TABLE astronauts(
    Death_Date          TEXT, 
    Death_Mission       TEXT
 );
+
 INSERT INTO astronauts(Name,Year,GroupNum,Status,Birth_Date,Birth_Place,Gender,Alma_Mater,Undergraduate_Major,Graduate_Major,Military_Rank,Military_Branch,Space_Flights,Space_Flight_hr,Space_Walks,Space_Walks_hr,Missions,Death_Date,Death_Mission) VALUES ('Joseph M. Acaba',2004,19,'Active','5/17/1967','Inglewood, CA','Male','University of California-Santa Barbara; University of Arizona','Geology','Geology',NULL,NULL,2,3307,2,13,'STS-119 (Discovery), ISS-31/32 (Soyuz)',NULL,NULL);
 INSERT INTO astronauts(Name,Year,GroupNum,Status,Birth_Date,Birth_Place,Gender,Alma_Mater,Undergraduate_Major,Graduate_Major,Military_Rank,Military_Branch,Space_Flights,Space_Flight_hr,Space_Walks,Space_Walks_hr,Missions,Death_Date,Death_Mission) VALUES ('Loren W. Acton',NULL,NULL,'Retired','3/7/1936','Lewiston, MT','Male','Montana State University; University of Colorado','Engineering Physics','Solar Physics',NULL,NULL,1,190,0,0,'STS 51-F (Challenger)',NULL,NULL);
 INSERT INTO astronauts(Name,Year,GroupNum,Status,Birth_Date,Birth_Place,Gender,Alma_Mater,Undergraduate_Major,Graduate_Major,Military_Rank,Military_Branch,Space_Flights,Space_Flight_hr,Space_Walks,Space_Walks_hr,Missions,Death_Date,Death_Mission) VALUES ('James C. Adamson',1984,10,'Retired','3/3/1946','Warsaw, NY','Male','US Military Academy; Princeton University','Engineering','Aerospace Engineering','Colonel','US Army (Retired)',2,334,0,0,'STS-28 (Columbia), STS-43 (Atlantis)',NULL,NULL);
